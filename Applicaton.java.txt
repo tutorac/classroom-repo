@@ -14,4 +14,11 @@ class Main {
       System.out.println("This is the finally block");
     }
   }
+  #new code changes for the feature 301 by vivek
+  public class CallingMethodsInSameClass
+{
+	public static void printOne() {
+		System.out.println("Hello World");
+	}
+}
 }
