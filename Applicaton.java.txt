@@ -14,6 +14,14 @@ class Main {
       System.out.println("This is the finally block");
     }
   }
+
+  #feature 302 changes by keerthi..on userreports services
+  // show results
+            for(String word : wordCount.keySet())
+                System.out.println(word + " " + wordCount.get(word));
+            System.out.println(wordCount.size());
+        }
+
   #new code changes for the feature 301 by vivek
   public class CallingMethodsInSameClass
 {
@@ -21,4 +29,5 @@ class Main {
 		System.out.println("Hello World");
 	}
 }
+
 }
